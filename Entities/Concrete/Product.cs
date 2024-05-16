@@ -16,5 +16,6 @@ namespace Entities.Concrete
         public ICollection<ProductPhoto> ProductPhotos { get; set; }
         public Guid BrandId { get; set; }
         public Brand Brand { get; set; }
+
     }
 }
